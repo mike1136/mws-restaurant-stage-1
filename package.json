@@ -1,0 +1,22 @@
+{
+  "name": "mws-restaurant-stage-1",
+  "version": "0.0.1",
+  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike1136/mws-restaurant-stage-1.git"
+  },
+  "author": "Michael A Valentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike1136/mws-restaurant-stage-1/issues"
+  },
+  "homepage": "https://github.com/mike1136/mws-restaurant-stage-1#readme",
+  "dependencies": {
+    "serve": "^10.0.0"
+  }
+}
