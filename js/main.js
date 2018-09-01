@@ -3,7 +3,9 @@ let restaurants,
   cuisines
 var newMap
 var markers = []
-
+navigator.serviceWorker.register('/sw.js').then(function(reg){
+  console.log('Service Worker enabled')
+}).catch(function (err){console.log('Error Adding Service Worker!'); })
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
